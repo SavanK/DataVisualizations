@@ -1,3 +1,0 @@
-/home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles/edit_cache.dir
-/home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles/IsoSurface.dir
-/home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,5 @@
-project(IsoSurface)
-set(APP IsoSurface)
+project(SliceView)
+set(APP SliceView)
 
 cmake_minimum_required(VERSION 2.8)
 

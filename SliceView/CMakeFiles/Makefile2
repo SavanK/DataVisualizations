@@ -54,45 +54,45 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface
+CMAKE_SOURCE_DIR = /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface
+CMAKE_BINARY_DIR = /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView
 
 #=============================================================================
-# Target rules for target CMakeFiles/IsoSurface.dir
+# Target rules for target CMakeFiles/SliceView.dir
 
 # All Build rule for target.
-CMakeFiles/IsoSurface.dir/all:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/depend
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles --progress-num=1,2,3,4 "Built target IsoSurface"
-.PHONY : CMakeFiles/IsoSurface.dir/all
+CMakeFiles/SliceView.dir/all:
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/depend
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles --progress-num=1,2,3,4 "Built target SliceView"
+.PHONY : CMakeFiles/SliceView.dir/all
 
 # Include target in all.
-all: CMakeFiles/IsoSurface.dir/all
+all: CMakeFiles/SliceView.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/IsoSurface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/IsoSurface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles 0
-.PHONY : CMakeFiles/IsoSurface.dir/rule
+CMakeFiles/SliceView.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SliceView.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles 0
+.PHONY : CMakeFiles/SliceView.dir/rule
 
 # Convenience name for target.
-IsoSurface: CMakeFiles/IsoSurface.dir/rule
+SliceView: CMakeFiles/SliceView.dir/rule
 
-.PHONY : IsoSurface
-
-# clean rule for target.
-CMakeFiles/IsoSurface.dir/clean:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/clean
-.PHONY : CMakeFiles/IsoSurface.dir/clean
+.PHONY : SliceView
 
 # clean rule for target.
-clean: CMakeFiles/IsoSurface.dir/clean
+CMakeFiles/SliceView.dir/clean:
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/clean
+.PHONY : CMakeFiles/SliceView.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/SliceView.dir/clean
 
 .PHONY : clean
 

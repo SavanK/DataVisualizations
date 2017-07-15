@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface
+CMAKE_SOURCE_DIR = /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface
+CMAKE_BINARY_DIR = /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named IsoSurface
+# Target rules for targets named SliceView
 
 # Build rule for target.
-IsoSurface: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 IsoSurface
-.PHONY : IsoSurface
+SliceView: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SliceView
+.PHONY : SliceView
 
 # fast build rule for target.
-IsoSurface/fast:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/build
-.PHONY : IsoSurface/fast
+SliceView/fast:
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/build
+.PHONY : SliceView/fast
 
 src/ImageReader.o: src/ImageReader.cpp.o
 
@@ -129,7 +129,7 @@ src/ImageReader.o: src/ImageReader.cpp.o
 
 # target to build an object file
 src/ImageReader.cpp.o:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/ImageReader.cpp.o
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/ImageReader.cpp.o
 .PHONY : src/ImageReader.cpp.o
 
 src/ImageReader.i: src/ImageReader.cpp.i
@@ -138,7 +138,7 @@ src/ImageReader.i: src/ImageReader.cpp.i
 
 # target to preprocess a source file
 src/ImageReader.cpp.i:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/ImageReader.cpp.i
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/ImageReader.cpp.i
 .PHONY : src/ImageReader.cpp.i
 
 src/ImageReader.s: src/ImageReader.cpp.s
@@ -147,7 +147,7 @@ src/ImageReader.s: src/ImageReader.cpp.s
 
 # target to generate assembly for a file
 src/ImageReader.cpp.s:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/ImageReader.cpp.s
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/ImageReader.cpp.s
 .PHONY : src/ImageReader.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -156,7 +156,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -165,7 +165,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/ofApp.o: src/ofApp.cpp.o
@@ -183,7 +183,7 @@ src/ofApp.o: src/ofApp.cpp.o
 
 # target to build an object file
 src/ofApp.cpp.o:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/ofApp.cpp.o
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/ofApp.cpp.o
 .PHONY : src/ofApp.cpp.o
 
 src/ofApp.i: src/ofApp.cpp.i
@@ -192,7 +192,7 @@ src/ofApp.i: src/ofApp.cpp.i
 
 # target to preprocess a source file
 src/ofApp.cpp.i:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/ofApp.cpp.i
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/ofApp.cpp.i
 .PHONY : src/ofApp.cpp.i
 
 src/ofApp.s: src/ofApp.cpp.s
@@ -201,7 +201,7 @@ src/ofApp.s: src/ofApp.cpp.s
 
 # target to generate assembly for a file
 src/ofApp.cpp.s:
-	$(MAKE) -f CMakeFiles/IsoSurface.dir/build.make CMakeFiles/IsoSurface.dir/src/ofApp.cpp.s
+	$(MAKE) -f CMakeFiles/SliceView.dir/build.make CMakeFiles/SliceView.dir/src/ofApp.cpp.s
 .PHONY : src/ofApp.cpp.s
 
 # Help Target
@@ -211,7 +211,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... IsoSurface"
+	@echo "... SliceView"
 	@echo "... rebuild_cache"
 	@echo "... src/ImageReader.o"
 	@echo "... src/ImageReader.i"

@@ -664,3 +664,115 @@ Linking C executable cmTC_0e7c3
 make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/IsoSurface/CMakeFiles/CMakeTmp'
 
 
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e110/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e110.dir/build.make CMakeFiles/cmTC_7e110.dir/build
+make[1]: Entering directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e110.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_7e110.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e110.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_7e110.dir/CheckFunctionExists.c.o  -o cmTC_7e110 -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e525e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e525e.dir/build.make CMakeFiles/cmTC_e525e.dir/build
+make[1]: Entering directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e525e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_e525e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e525e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e525e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_e525e.dir/CheckFunctionExists.c.o  -o cmTC_e525e -rdynamic 
+make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc231/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc231.dir/build.make CMakeFiles/cmTC_bc231.dir/build
+make[1]: Entering directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc231.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_bc231.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc231
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc231.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_bc231.dir/CheckFunctionExists.c.o  -o cmTC_bc231 -rdynamic 
+make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb28a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb28a.dir/build.make CMakeFiles/cmTC_eb28a.dir/build
+make[1]: Entering directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb28a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_eb28a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb28a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb28a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_eb28a.dir/CheckFunctionExists.c.o  -o cmTC_eb28a -rdynamic 
+make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b886b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b886b.dir/build.make CMakeFiles/cmTC_b886b.dir/build
+make[1]: Entering directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b886b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_b886b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b886b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b886b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_b886b.dir/CheckFunctionExists.c.o  -o cmTC_b886b -rdynamic 
+make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_037d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_037d5.dir/build.make CMakeFiles/cmTC_037d5.dir/build
+make[1]: Entering directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_037d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_037d5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_037d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_037d5.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_037d5.dir/CheckFunctionExists.c.o  -o cmTC_037d5 -rdynamic -lICE 
+make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6f49/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6f49.dir/build.make CMakeFiles/cmTC_d6f49.dir/build
+make[1]: Entering directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6f49.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d6f49.dir/CheckIncludeFile.c.o   -c /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d6f49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6f49.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d6f49.dir/CheckIncludeFile.c.o  -o cmTC_d6f49 -rdynamic 
+make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73cc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73cc3.dir/build.make CMakeFiles/cmTC_73cc3.dir/build
+make[1]: Entering directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73cc3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_73cc3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73cc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73cc3.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_73cc3.dir/CheckFunctionExists.c.o  -o cmTC_73cc3 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/savan/Workspace/Summer/class_projects/DataVisualizations/SliceView/CMakeFiles/CMakeTmp'
+
+
