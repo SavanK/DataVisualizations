@@ -106,6 +106,8 @@ void ofApp::setup(){
 	parallel_coord_y = 0.1f * screen_height; // give parallel coord plot 90% screen height
 	ofBackground(196, 196, 196);
 	ofEnableSmoothing();
+
+	file_loaded = load_file(ofToDataPath("cars.tsv"));
 }
 
 //--------------------------------------------------------------
@@ -172,7 +174,7 @@ void ofApp::mouseDragged(int x, int y, int button){
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
 	if (is_inside_rect(x, y, button_rect_start.x, button_rect_start.y, button_rect_start.x + button_width, button_rect_start.y + button_height)) {
-		ofFileDialogResult result = ofSystemLoadDialog(button_label);
+	  /*ofFileDialogResult result = ofSystemLoadDialog(button_label);
 		if (result.bSuccess) {
 			string path = result.getPath();
 			if (file_loaded) {
@@ -184,7 +186,7 @@ void ofApp::mousePressed(int x, int y, int button){
 				err_code->clear();
 			}
 			file_loaded = load_file(path);
-		}
+			}*/
 		button_bg_color.set(90, 90, 90);
 	}
 }
