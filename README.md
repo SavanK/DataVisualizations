@@ -1,5 +1,36 @@
 # DataVisualizations
 Designed and implemented various interactive data visualization tools as part of class curriculum.
+## Dependency
+1. Openframeworks https://github.com/openframeworks/openFrameworks
+2. VTK http://www.vtk.org/download/
+## Build
+```
+cd <viz>
+mkdir build
+cd build
+cmake ../CMakeLists.txt
+cd ..
+make
+```
+Example:
+```
+cd ScatterPlot
+mkdir build
+cd build
+cmake ../CMakeLists.txt
+cd ..
+make
+```
+## Run
+```
+cd <viz>
+./bin/<viz>
+```
+Example:
+```
+cd ScatterPlot
+./bin/ScatterPlot
+```
 ## Scatterplot
 ![Image of Scatterplot](ScatterPlot/Scatterplot.png)
 ## Scatterplot Matrix
